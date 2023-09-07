@@ -1,0 +1,151 @@
+Enter which command to run (q to quit)
+--------------------------------------
+Option 1: 'Define' Tree
+Option 2: 'Generate' Tree
+Option 3: 'Set' Tree
+Option 4: 'Run' the algorithm
+Option 5: 'Delete' Tree
+Option 6: 'Print' Tree
+Option 7: 'Change' Node
+Option 8: 'Del' Node
+Option 9: 'Insert' Node
+Option 10: 'PrintPath' Tree
+
+Enter the branching factor (a positive integer): Enter the maximum depth of the tree (a non-negative integer): 
+You have defined a tree with the following details:
+Branching factor: 3
+Maximum depth: 3
+Total nodes: 27
+
+Generating the tree...
+
+Enter 27 values for the tree:
+----------------------------------------------------
+
+Setting the tree...
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Would you like to print the indexes (1) or the options (2):
+Printing the tree...
+Level 0: -1 
+Level 1: -2 -6 -10 
+Level 2: -3 -4 -5 -7 -8 -9 -11 -12 -13 
+Level 3: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 
+
+Would you like to print the indexes (1) or the options (2):
+Printing the options...
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 
+
+Enter the index to add a node at (between 0 and 26): Enter the value of the node: Node changed successfully.
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Would you like to print the indexes (1) or the options (2):
+Printing the tree...
+Level 0: -1 
+Level 1: -2 -6 -10 
+Level 2: -3 -4 -5 -7 -8 -9 -11 -12 -13 
+Level 3: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 
+
+Would you like to print the indexes (1) or the options (2):
+Printing the options...
+1 30 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 
+
+Enter the index to delete a node at (between -13 and 27): Node deleted successfully.
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Would you like to print the indexes (1) or the options (2):
+Printing the tree...
+Level 0: -1 
+Level 1: -2 -6 -10 
+Level 2: -3 -4 -5 -7 -8 -9 -11 -12 
+Level 3: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
+
+Would you like to print the indexes (1) or the options (2):
+Printing the options...
+1 30 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 25 26 27 
+
+Enter the index to delete a node at (between -12 and 24): Node deleted successfully.
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Would you like to print the indexes (1) or the options (2):
+Printing the tree...
+Level 0: -1 
+Level 1: -2 -6 -10 
+Level 2: -3 -4 -5 -7 -8 -9 -11 -12 
+Level 3: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 
+
+Would you like to print the indexes (1) or the options (2):
+Printing the options...
+1 30 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19 20 21 25 26 27 
+
+What type of node do you want to insert? Leaf(1) or Branch(2): Enter the index to insert a leaf node at (between 0 and 23): Enter the value of the leaf node: Left(0) or Right(1) of node: 
+Leaf node inserted successfully.
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Would you like to print the indexes (1) or the options (2):
+Printing the tree...
+Level 0: -1 
+Level 1: -2 -6 -10 
+Level 2: -3 -4 -5 -7 -8 -9 -11 -12 
+Level 3: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
+
+Would you like to print the indexes (1) or the options (2):
+Printing the options...
+1 30 3 4 5 6 8 9 10 11 12 13 14 15 16 17 90 18 19 20 21 25 26 27 
+
+What type of node do you want to insert? Leaf(1) or Branch(2): Enter the index to insert a branch node at (between -2 and -12)
+Left(0) or Right(1) of node: 
+Enter 3 values for the tree:
+----------------------------------------------------
+
+Branch node inserted successfully.
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Would you like to print the indexes (1) or the options (2):
+Printing the tree...
+Level 0: -1 
+Level 1: -2 -6 -10 
+Level 2: -3 -4 -5 -7 -8 -9 -11 -12 -13 
+Level 3: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 
+
+Would you like to print the indexes (1) or the options (2):
+Printing the options...
+1 30 3 4 5 6 8 9 10 11 12 13 14 15 16 17 90 18 19 20 21 99 20 15 25 26 27 
+
+Exiting Simulation...

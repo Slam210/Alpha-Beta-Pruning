@@ -1,0 +1,43 @@
+Enter which command to run (q to quit)
+--------------------------------------
+Option 1: 'Define' Tree
+Option 2: 'Generate' Tree
+Option 3: 'Set' Tree
+Option 4: 'Run' the algorithm
+Option 5: 'Delete' Tree
+Option 6: 'Print' Tree
+Option 7: 'Change' Node
+Option 8: 'Del' Node
+Option 9: 'Insert' Node
+Option 10: 'PrintPath' Tree
+
+Enter the branching factor (a positive integer): Enter the maximum depth of the tree (a non-negative integer): 
+You have defined a tree with the following details:
+Branching factor: 3
+Maximum depth: 3
+Total nodes: 27
+
+Generating the tree...
+
+Enter 27 values for the tree:
+----------------------------------------------------
+
+Setting the tree...
+
+Running the algorithm... 
+------------------------
+The best value found is: 21
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 3 =>  End.
+
+Enter the index to add a node at (between 0 and 26): Enter the value of the node: Node changed successfully.
+
+Running the algorithm... 
+------------------------
+The best value found is: 20
+
+Printing the path to the best value...
+Best Path is: Current => Option 3 => Option 1 => Option 2 =>  End.
+
+Exiting Simulation...
